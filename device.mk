@@ -120,6 +120,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    qemu.sf.lcd_density=420
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
