@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-BOARD_VENDOR := nokia
-
 DEVICE_PATH := device/nokia/drg
 
 # Architecture
