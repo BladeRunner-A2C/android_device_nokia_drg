@@ -360,6 +360,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libxml2
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.radio.add_power_save=1
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
