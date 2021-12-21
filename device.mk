@@ -123,6 +123,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     qemu.sf.lcd_density=420
 
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.surface_flinger.protected_contents=true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
