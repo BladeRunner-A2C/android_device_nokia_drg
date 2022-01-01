@@ -34,7 +34,6 @@ persist.camera.debug_img_exif=1
 persist.camera.privapp.list=org.codeaurora.snapcam
 persist.vendor.camera.preview.ubwc=0
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
-vendor.camera.aux.packagelist=org.codeaurora.snapcam
 
 # Charging
 persist.chg.max_volt_mv=9000

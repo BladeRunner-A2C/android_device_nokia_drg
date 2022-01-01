@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
     libgui_shim \
     libgui_shim_vendor
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \

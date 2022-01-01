@@ -120,7 +120,6 @@ persist.vendor.camera.fdvideo=1
 persist.vendor.camera.ven_hdr=0
 ro.camera.record.anim.delay=200
 ro.camera.switch.anim.delay=300
-vendor.camera.aux.packagelist=com.hmdglobal.camera2,com.evenwell.fqc,com.fihtdc.fap,org.codeaurora.snapcam
 vendor.camera.c2d.rotation=1
 vendor.camera.hal1.packagelist=com.dw.btime
 
