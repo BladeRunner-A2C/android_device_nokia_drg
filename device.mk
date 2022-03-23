@@ -70,6 +70,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.bluetooth.modem_nv_support=true
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
