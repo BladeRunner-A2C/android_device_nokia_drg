@@ -43,9 +43,23 @@ on boot
    chown system system /proc/AllHWList/tp_double_tap
    chmod 644 /proc/AllHWList/tp_double_tap
 
+on fs
+    # Fingerprint
+    chown system system /dev/goodix_fp
+    chmod 666 /dev/goodix_fp
+
 on post-fs-data
+    # Fingerprint
+    mkdir /data/system/fingerprint 0770 system system
+
    # Gestures
    mkdir /data/vendor/misc/touch 0770 system system
+
+on property:ro.boot.simslot=1
+    setprop persist.radio.multisim.config ss
+
+on property:ro.boot.simslot=2
+    setprop persist.radio.multisim.config dsds
 
 service vendor.qseecomd /vendor/bin/qseecomd
    class core

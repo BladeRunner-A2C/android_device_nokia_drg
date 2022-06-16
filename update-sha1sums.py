@@ -20,7 +20,7 @@ import os
 import sys
 from hashlib import sha1
 
-device='sdm660-common'
+device='drg'
 vendor='nokia'
 
 with open('proprietary-files.txt', 'r') as f:
